@@ -1,0 +1,10 @@
+/* 1. Import Google Fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+/* 2. Tailwind utilities */
+@tailwind utilities;
+
+/* 3. Global CSS */
+body {
+  font-family: 'Rubik 80s Fade', sans-serif;
+}
