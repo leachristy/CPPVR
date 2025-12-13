@@ -10,7 +10,7 @@ export const Navbar = () => {
         to="/home"
         className="text-2xl font-cherry text-black !no-underline hover:text-gray-700"
       >
-        Home
+        CPPVR
       </Link>
 
       {/* Right side */}

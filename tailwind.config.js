@@ -5,6 +5,7 @@ module.exports = {
       extend: {
         fontFamily: {
           rubikFade: ['"Rubik 80s Fade"', 'sans-serif'],
+          workSans: ['"Work Sans"', 'sans-serif'],
         },
       },
     },
