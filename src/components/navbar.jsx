@@ -5,15 +5,13 @@ export const Navbar = () => {
   return (
     <div className="flex w-full justify-between items-center px-4 py-3">
       
-      {/* Left side */}
       <Link
         to="/home"
         className="text-2xl font-cherry text-black !no-underline hover:text-gray-700"
       >
         CPPVR
       </Link>
-
-      {/* Right side */}
+      
       <div className="flex gap-4">
         <Link
           to="/projects"

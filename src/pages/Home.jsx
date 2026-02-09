@@ -62,12 +62,12 @@ export const Home = () => {
               </Card.Text>
             </Card.Body>
             <Button
-              as={Link}
-              to="/projects"
-              className="m-3 btn-custom"
+            onClick={() => window.open("https://www.youtube.com/embed/ht2saiQqPQM?si=xZ462cFFzx5vSC21")}
+            className="m-3 btn-custom"
             >
-              VIEW PROJECT
+            VIEW PROJECT
             </Button>
+
           </Card>
 
           <Card className="card-custom">
@@ -83,11 +83,10 @@ export const Home = () => {
               </Card.Text>
             </Card.Body>
             <Button
-              as={Link}
-              to="/projects"
-              className="m-3 btn-custom"
+            onClick={() => window.open("https://www.youtube.com/embed/NPDaAG-j_Po?si=djw-8_HcpnLvHglA")}
+            className="m-3 btn-custom"
             >
-              VIEW PROJECT
+            VIEW PROJECT
             </Button>
           </Card>
 
@@ -107,11 +106,10 @@ export const Home = () => {
               </Card.Text>
             </Card.Body>
             <Button
-              as={Link}
-              to="/projects"
-              className="m-3 btn-custom"
+            onClick={() => window.open("https://www.youtube.com/embed/YcD0RUF4Hl4?si=GrAnsChBo_siTTe7")}
+            className="m-3 btn-custom"
             >
-              VIEW PROJECT
+            VIEW PROJECT
             </Button>
           </Card>
         </div>
@@ -155,7 +153,7 @@ export const Home = () => {
       {/* Visual Hierarchy / About Section */}
       <div className="container p-2 mt-5 mb-5">
         <div className="row align-items-center">
-          {/* Image */}
+      
           <div className="col-md-6 text-center mb-4 mb-md-0">
             <img
               src={vrLab}
@@ -164,7 +162,7 @@ export const Home = () => {
             />
           </div>
 
-          {/* Text */}
+    
           <div className="col-md-6">
             <h2 className="fw-bold display-4 mb-3 font-rubik">About the Lab</h2>
             <p className="mb-3 text-lead">

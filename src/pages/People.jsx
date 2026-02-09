@@ -1,18 +1,29 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import "../index.css";
+import { LabDirectors } from "../components/people/labdirectors";
+import { CurrentLabAssistants } from "../components/people/currentlabassistants"
+import { LabAlumni } from "../components/people/labalumni";
+import { FormerLeader } from "../components/people/formerleader";
 
-// Import images
-import vrHeader from "../assets/VR_Header.jpg";
-import godotDemo from "../assets/godot-demo.png";
-import wildfire from "../assets/wildfire.JPG";
-import droneTraining from "../assets/drone-training.png";
-import vrLab from "../assets/VR Lab.png";
+
 
 export const People = () => {
   return (
-    <div>People</div>
+    <>
+      <div className="text-center p-2 ">
+        <p className="font-rubik display-2 fw-bold">Our Team</p>
+        <p className="font-work pb-3" style={{ fontSize: "1.5rem", lineHeight: "1.2", letterSpacing: "0.05em" }}>The talented people behind our VR innovations</p>    
+        <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
+      </div>
+      <div>
+        <LabDirectors />
+        <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
+        <CurrentLabAssistants />
+        <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
+        <LabAlumni />
+        <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
+        <FormerLeader />
+      </div>
+    </>
   )
 }

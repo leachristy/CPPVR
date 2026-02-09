@@ -12,20 +12,23 @@ import './index.css'
 
 function App() {
   return (
-    <>
-    <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About /> } />
-        <Route path="/people" element={<People />} />
-        <Route path="/technology" element={<Technology />} />
-        <Route path="/contact" element={<Contact/> } />
-      </Routes>
-    <Footer />
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <div className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About /> } />
+          <Route path="/people" element={<People />} />
+          <Route path="/technology" element={<Technology />} />
+          <Route path="/contact" element={<Contact/> } />
+        </Routes>
+      </div>
+      <Footer />
+    </div>
   )
 }
+
 
 export default App
