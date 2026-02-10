@@ -14,9 +14,9 @@ export const Projects = () => {
         <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
 
         <Projects_2425 />
-        <br />
+        <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
         <Projects_2223 />
-        <br />
+        <hr className="border-t-2 border-gray-300 my-6 w-1/2 mx-auto" />
         <Projects_1819 />
       </div>
     </>

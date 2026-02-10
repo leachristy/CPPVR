@@ -18,8 +18,14 @@ export const Message = () => {
             3801 W Temple Ave <br />
             Pomona, CA 91768
             <p className="fw-bold mt-3 mb-1">Email</p>
-            Director: mihusain@cpp.edu <br />
-            Co-Director: ndavarpanah@cpp.edu
+            Director: {" "}
+            <a href={`mailto:mihusain@cpp.edu`}>
+                  mihusain@cpp.edu
+            </a> <br />
+            Co-Director: {" "}
+            <a href={`mailto:fjamshidi@cpp.edu`}>
+                  fjamshidi@cpp.edu
+            </a>
             <p className="fw-bold mt-3 mb-1">Lab Hours</p>
             Monday - Friday: 9:00 AM - 5:00 PM <br />
             By appointment only
